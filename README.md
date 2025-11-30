@@ -63,6 +63,7 @@ Netflix utilizes Go in parts of its server architecture.
 
 ### Minimal Working Example
 This example creates a simple HTTP server with a /products endpoint.
+        
         package main
 
         import (
