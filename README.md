@@ -60,9 +60,13 @@ Netflix utilizes Go in parts of its server architecture.
      mkdir -p ~/go-projects/products-api
      cd ~/go-projects/products-api
      go mod init products-api
+     touch main.go
+
 
 ### Minimal Working Example
 This example creates a simple HTTP server with a /products endpoint.
+
+Now open <strong>main.go</strong> in your editor and paste the following code:
         
         package main
 
@@ -92,7 +96,8 @@ This example creates a simple HTTP server with a /products endpoint.
             http.HandleFunc("/products", productsHandler)
             http.ListenAndServe(":8080", nil)
         }
-What the API does
+What the API does:
+
 Starts a server on port 8080
 ##### Run the Go file
       go run main.go
