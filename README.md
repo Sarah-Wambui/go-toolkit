@@ -63,7 +63,7 @@ Netflix utilizes Go in parts of its server architecture.
      touch main.go
 
 
-### Minimal Working Example
+## 5. Minimal Working Example
 This example creates a simple HTTP server with a /products endpoint.
 
 Now open <strong>main.go</strong> in your editor and paste the following code:
